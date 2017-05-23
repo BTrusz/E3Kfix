@@ -21,7 +21,7 @@
     /* //FOR MORE COMPLEX PAGES (FORM LAYOUTS?)
     var i, action=document.forms[0].action;
     action = action.slice(action.indexOf("apply"));//trim leading http crap, only keep relative link: apply.cgi...
-    for (i=1; i<document.forms.length; i++) //skip teh only corrent form
+    for (i=1; i<document.forms.length; i++) //skip teh only correct form
         if (document.forms[i].action !== 'undefined' && document.forms[i].action.length)  //does this form REALLY have an action?
             document.forms[i].action = action;  //fix it
     */
